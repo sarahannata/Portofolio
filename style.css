@@ -1,0 +1,326 @@
+nav {
+    background-color: #333;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.452);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin: 0 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+nav span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #548da9;
+    background-color: rgba(107, 167, 189, 0.5);
+}
+
+nav a.active {
+    background-color: #5561ae;
+}
+
+footer {
+    background-color: #f1f1f1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    margin: 0 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 35px; 
+    height: 35px; 
+    border-radius: 50%;
+}
+
+.social-icons a:hover {
+    opacity: 0.10;
+}
+
+.profile {
+    max-width: 250px;
+    margin: 0 auto;
+    border-radius: 100%;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.158);
+}
+.profile img {
+    width: 250px;
+    height: 250px; 
+    background: #4d7484;
+    border-radius: 100%;
+    object-fit: cover;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.intro {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.intro p {
+    padding-top: 40px;
+    line-height: 1.6;
+}
+
+#carouselExampleIndicators {
+    margin: auto; 
+    width: 46%; 
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.carousel-item img {
+    width: 100%; 
+    border-radius: 20px;
+    padding-bottom: 40px;
+}
+
+.resume {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.resume h2 {
+    font-size: x-large;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.resume p {
+    line-height: 1.6;
+    text-align: justify;
+    padding-top: 25px;
+}
+
+.resume ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.experience ul li {
+    margin-bottom: 10px;
+    list-style-type: disc;
+}
+
+
+.education {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.education h2 {
+    color: #333;
+    font-size: x-large;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.education h3 {
+    font-size: 18px;
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education h3 span {
+    font-size: 14px;
+    color: #999;
+}
+
+.education p {
+    font-size: 13px;
+    color: beige;
+    background-color: #5561ae;
+    border-radius: 20px;
+    padding: 5px;
+    display: inline-block;
+}
+.organisational-experience {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.organisational-experience h2 {
+    color: #333;
+    font-size: x-large;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.organisational-experience h3 {
+    font-size: 18px;
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.organisational-experience h3 span {
+    font-size: 14px;
+    color: #999;
+}
+
+.organisational-experience p {
+    font-size: 13px;
+    color: beige;
+    background-color: #5561ae;
+    border-radius: 20px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.organisational-experience ul {
+    list-style-type: disc;
+    padding-left: 20px; 
+}
+
+.organisational-experience ul li {
+    margin-bottom: 10px;
+}
+
+.committee-experience {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.committee-experience h2 {
+    color: #333;
+    font-size: x-large;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.committee-experience h3 {
+    font-size: 18px;
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.committee-experience h3 span {
+    font-size: 14px;
+    color: #999;
+}
+
+.committee-experience p {
+    font-size: 13px;
+    color: beige;
+    background-color: #5561ae;
+    border-radius: 20px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.committee-experience ul {
+    list-style-type: disc;
+    padding-left: 20px; 
+}
+
+.committee-experience ul li {
+    margin-bottom: 10px;
+}
+
+.skills {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.skills h2 {
+    color: #333;
+    font-size: x-large;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.skills h3 {
+    font-size: 18px;
+    color: #666;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    font-size: 13px;
+    color: beige;
+    background-color: #5561ae;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.skills h3 + p {
+    font-size: 13px;
+    color: beige;
+    background-color: #5561ae;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.row {
+    padding-top: 40px;
+    padding-left: 70px;
+}
+
+.card {
+    box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.276);
+    width: 100%;
+    max-width: 350px; 
+    border-radius: 5px;
+    margin-bottom: 25px; 
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-body {
+    min-height: 150px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
